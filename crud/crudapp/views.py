@@ -1,3 +1,7 @@
-from django.shortcuts import render
+def crudapp (request):
+    context = {}
+    return render(request, 'crudapp/crud.html', context)
 
-# Create your views here.
+def crudbu (request):
+    context = {}
+    return render(request, 'crudapp/crudbu.html', context)
